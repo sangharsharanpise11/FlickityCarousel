@@ -9,7 +9,7 @@ body { font-family: sans-serif; }
 
 .cell {
  
-  width: 20%;
+  min-width: 19%;
   border-radius: 50% !important;
   height: 220px;
   display: inline-block;
