@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,height:100%, initial-scale=1">
+        <title>Flickity Slider</title>
+
+       <!-- CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" type="text/css" href="Flickity.css">   
+    </head>
+   
+    <body>
+       
+      <div class="wrapper">
+        <div class="main-carousel"  data-flickity='{ "groupCells": true }'>
+            <div class="cell">
+                <img src="/images/i1.jpg">    
+            </div>
+            <div class="cell">
+                <img src="/images/i2.jpg">
+            </div>
+            <div class="cell">
+                <img src="/images/i3.jpg">  
+            </div>            
+            <div class="cell">
+                <img src="/images/i5.jpg">      
+            </div>
+            <div class="cell">
+                <img src="/images/i6.jpg">
+            </div>
+            <div class="cell">
+                <img src="/images/i7.jpg">
+            </div>
+        </div>
+      </div>  
+     
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script>
+        $(".main-carousel").flickity({
+            cellAlign:'left',
+            wrapAround:true,
+            freeScroll:true,
+            autoPlay: true,
+            auoplaySpeed:1000
+        })
+    </script>
+</body>
+</html>
