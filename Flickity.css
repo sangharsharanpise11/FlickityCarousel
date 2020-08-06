@@ -6,15 +6,14 @@ body { font-family: sans-serif; }
 .carousel {
   background: #EEE;
 }
-
+img{
+    min-width: 28%;
+    border-radius: 50% !important;
+    height: 245px;
+}
 .cell {
- 
-  min-width: 19%;
-  border-radius: 50% !important;
-  height: 220px;
-  display: inline-block;
-  margin: 0 15px;
-  border: 3px solid blue;
+   display: inline-block; 
+   margin: 0 15px;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -22,4 +21,15 @@ body { font-family: sans-serif; }
     width: 90%;
     position: relative;
     margin: 5%;
+}
+.data{
+    text-align: center;
+    margin: 10%;
+}
+.img{
+    width: 220px;
+    height: 210px;
+    background-repeat: no-repeat;    background-size: auto;
+    border-radius: 50%;
+    background-color: black;
 }
